@@ -6,7 +6,7 @@ jobs:
     name: Build our App
     runs-on: ubuntu-latest
     steps:
-      - name: Print Current Directory
-         run:pwd
-      - name: List files in Directory
-         run:ls
+       - id: steps1
+         run: pwd
+       - id: steps2
+         run: ls
