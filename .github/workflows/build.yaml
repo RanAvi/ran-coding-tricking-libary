@@ -12,6 +12,8 @@ jobs:
          run: pwd
        - name: List Files in Directory
          run: ls
+       - name: TrickingLibrary.Api
+         run: ls TrickingLibrary.Api/
        - name: Check Dotnet Cli
          run: dotnet build
        - name: Check Dotnet Cli
