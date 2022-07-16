@@ -1,13 +1,12 @@
 name: Bulid My Application
-
-on:[push]
-
+on: push
 jobs:
-build:
-name:Build our App
-    runs-on: ubuntu-latest
+ build:
+    name:Build our App
+    runs-on:ubuntu-latest 
     steps:
+    
    - name: Print Current Directory
-    run:pwd 
-    - name: List Files in Directory
-    run:ls
+     run:pwd 
+   - name: List Files in Directory
+     run:ls
